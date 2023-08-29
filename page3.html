@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  
+  <div id="hh3">
+    <button class="backbtn" id="backBtn">back</button>
+  <h2> English Songs Playlist</h2>
+    <div class="container">
+        <div class="song-list">
+          <p>Choose here by clicking.</p>
+          <div class="option-Box" onclick="playSong(0)">Everyday</div>
+          <div class="option-Box" onclick="playSong(1)">Style</div>
+          <div class="option-Box" onclick="playSong(2)">Call you mine</div>
+          <div class="option-Box" onclick="playSong(3)">To the bone</div>
+          <div class="option-Box" onclick="playSong(4)">Landside</div>
+      </div>
+      <div class="song-details">
+        <!-- <h2>Now Playing</h2> -->
+        <p id="nowPlaying">No song playing</p>
+        <!-- <h2>Song Lyrics</h2>
+        <div id="lyricsContainer">
+          
+        </div> -->
+        <br>
+        <div id="imageContainer">
+          <img id="songImage1">
+        <!-- <p> please choose a song first!</p> -->
+        </div>
+        <br>
+    
+        <div id="audioPlayerContainer">
+          <audio id="audioPlayer" controls>
+            <source id="audioSource" src="" type="audio/mpeg">
+          </audio>
+          
+        </div>
+      </div>
+     </div>
+    </div>
+</body>
+<script src="s3.js"></script>
+</html>
